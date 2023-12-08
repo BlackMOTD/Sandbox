@@ -1,0 +1,68 @@
+body{
+background-color: #F5D7DB;
+
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+
+    width: 309px;
+}
+
+.div1{
+
+    background-color: #efc5b6;
+    border-radius: 30px;
+}
+.div2{
+
+    background-color: #BD83B8;
+    height: 50px;
+    border-radius: 30px;
+   
+}
+
+p {
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.imgvinyle{
+    animation: turn 3.5s infinite linear;
+    
+
+}
+
+@keyframes turn {
+
+    0% {
+        transform: rotate(0deg) ;
+    }
+
+
+    100% {
+        transform: rotate(360deg) ;
+
+    }
+    
+}
+
+.ninho{
+
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    
+}
