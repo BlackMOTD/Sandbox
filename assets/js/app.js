@@ -52,7 +52,7 @@ const calculAge2 = ()=>{
     }
 
 // If else terniaire
-    age > 18 ? console.log("Tu peux !") : onsole.log("Rentre chez toi !");
+    age > 18 ? console.log("Tu peux !") : console.log("Rentre chez toi !");
 
 
     console.log(`Age : ${age}`);
@@ -60,3 +60,6 @@ const calculAge2 = ()=>{
 }
 
 calculAge2();
+
+
+const disque = document.getElementById(".imgvinyle")
